@@ -1,0 +1,26 @@
+
+.contact-content{
+
+    height: 395px; 
+    display: block;
+    margin-top: 32px;
+    padding: 9px;
+    position: relative;
+    height: 80vh;
+    overflow: hidden;
+    font-family: var(--font1);
+    
+    
+}
+
+.contact-content::after{
+    content: "";
+    background-image: url(/img/blog.png);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: inherit;
+    opacity: 0.20;
+    border-radius: 20px;
+    z-index: -1;
+}
